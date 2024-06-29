@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 e CSS3 - One page site</title>
+    <meta name="description"
+        content="Aprenda HTML5, CSS3 e SEO de forma simples, pratica e objetiva desenvolvendo passo a passo do zero ate a hospedagem de um site one page moderno e responsivo.">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--cabecalho-->
+    <header id="inicio">
+        <div class="container Flex">
+            <div id="logo">
+                <img src="img/logo.png" alt="hal 9000">
+            </div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check">&#x268c;</label>
+                <!--e ssa label associa o simbolo (&#x268c;) dos dois traços do menu hamburguer(=) ao checkbox do id acima-->
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#conteudo">Conteúdo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- destaque -->
+    <main>
+        <div class="container">
+            <h1>HTML e CSS</h1>
+            <h2>Você faz. Você vê. Você aprende</h2>
+            <a href="https://www.youtube.com/watch?v=bS720dGvAn8&list=PLbEOwbQR9lqySIIlPJ-Qwo4f4HSuXVeWk"
+                target="_blank" class="Botao">Saiba mais</a>
+        </div>
+    </main>
+
+    <!-- sobre -->
+    <section id="sobre">
+        <div class="container Flex2">
+            <div id="destaqueSobre">
+                <img src="img/html5css3.jpg" alt="html5css3">
+            </div>
+            <div id="textoSobre">
+                <h2>Aprender na prática</h2>
+                <p>Aprender HTML5, CSS3 e SEO de forma simples, prática e objetiva desenvolvendo passoa a passo do zero
+                    ate a hspedagem um site one page moderno e responsivo.</p>
+                <div class="TopicosSobre Flex2">
+                    <img src="img/html5.png" alt="html5">
+                    <p>HTML5</p>
+                </div>
+                <div class="TopicosSobre Flex2">
+                    <img src="img/css3.png" alt="css3">
+                    <p>CSS3</p>
+                </div>
+                <div class="TopicosSobre Flex2">
+                    <img src="img/seo.png" alt="seo">
+                    <p>SEO</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- one page video -->
+    <section id="onepage">
+        <div class="container Flex3">
+            <div id="textoSite">
+                <h2>One page site</h2>
+                <p>Ideal para negócios de pequeno ou médio porte o "One page site" é um site onde você inclui todas as informações que o visitante precisa de forma objetiva e criativa em uma única página.</p>
+            </div>
+            <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bS720dGvAn8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- wireframe qr code permitindo download em pdf -->
+    <section>
+        <div id="wireframe">
+            <div class="container Flex2">
+                <div id="textowire">
+                    <h2>Wireframe</h2>
+                    <p>Wireframe é uma representação visual da estrutura básica de uma página. Ele deve ser feito da maneira mais simples possível, mostrando apenas o essencial, como uma espécie de rascunho, sem cores ou imagens. Clique no botão <span> ou escaneie o QR Code </span> para obter o wireframe desta página.</p>
+                    <a href="wireframe.pdf" target="_blank" class="Botao">PDF</a>
+                </div>
+                <div id="qrcode">
+                    <img src="img/qrcode.png" alt="qrcode">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- conteudo em cartoes -->
+    <section id="conteudo">
+        <div class="container">
+            <h2>Conteúdo</h2>
+            <div class="Cards Flex4">
+                <div class="Card">
+                    <img src="img/estruturahtml.png" alt="Estrutura html5">
+                    <h3>HTML5</h3>
+                    <p>O html é usado para exibir conteúdo na WEB e a estrutura do documento é dividida em partes conforme indicado neste cartão.</p>
+                    <a href="https://youtu.be/EUpLb_A8cTI" target="_blank" class="Botao">Saiba +</a>
+                </div>
+                <div class="Card">
+                    <img src="img/boxmodel.png" alt="Box model CSS">
+                    <h3>BOX MODEL CSS</h3>
+                    <p>O box model relaciona as propriedades descritas neste cartão para compor a dimensão do elemento.</p>
+                    <a href="https://youtu.be/dkbs-8ZRzZU" target="_blank" class="Botao">Saiba +</a>
+                </div>
+                <div class="Card">
+                    <img src="img/breakpoints.png" alt="Box model CSS">
+                    <h3>BREAKPOINTS</h3>
+                    <p>Partindo sempre do smartphone em modo portrait, usamos como referência os valores descritos neste cartão.</p>
+                    <a href="https://youtu.be/BO-VzBNyEOs" target="_blank" class="Botao">Saiba +</a>
+                </div>
+            </div>
+            <div id="todos">
+                <a href="https://www.youtube.com/playlist?list=PLbEOwbQR9lqySIIlPJ-Qwo4f4HSuXVeWk" target="_blank">Conheça todos >></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- rodape -->
+    <address>
+        <div class="container Flex6">
+            <div id="contato">
+                <a href="https://api.whatsapp.com/send?phone=5579996506835" target="_blank">
+                    <img src="img/whatsapp.png" alt="whatsapp" title="Abrir no whatsapp">
+                    <p>(79) 99650-6835</p>
+                </a>
+                <img src="img/fone.png" alt="fone">
+                <p>(79) 99650-6835</p>
+            </div>
+            <div id="endereco">
+                <a href="https://goo.gl/maps/UwXh5YQ25VDGDTRD9"><img src="img/mapa.png" alt="mapa" id="iconeMapa"></a>
+                <img src="img/local.png" alt="local" id="iconeLocal">
+                <p>Rua Antônio Teodoro, 271</p>
+                <p>Bairro Dezoito</p>
+                <p>Aracaju-SE</p>
+                <a href="mailto:miltongomes_13@hotmail.com?subject=HTML5CSS3">
+                    <img src="img/email.png" alt="email" title="Enviar E-mail">
+                    <p>miltongomes_13@hotmail.com</p>
+                </a>
+                <p id="dados">&#128064; Endereço e dados de contatos ficticios</p>
+            </div>
+            <div id="googleMaps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1821.8102288941652!2d-37.07106999999999!3d-10.8948922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab33cc086f7e7%3A0xa2f2243f2f38061f!2sR.%20Ant%C3%B4nio%20Teodoro%2C%20271%20-%20Dezoito%20do%20Forte%2C%20Aracaju%20-%20SE%2C%2049072-020!5e1!3m2!1spt-BR!2sbr!4v1676328075638!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </address>
+    <footer>
+        <div class="container Flex5">
+            <div id="copyright">
+                <p>&#169; Professor Jose de Assis</p>
+            </div>
+            <div id="social">
+                <a href="https://www.youtube.com/c/RoboticapraticaBr" target="_blank"><img src="IMG/youtube.png" alt="youtube"></a>
+                <a href="https://www.linkedin.com/in/professorjosedeassis" target="_blank"><img src="img/linkedin.png" alt="linkedin"></a>
+                <a href="https://www.facebook.com/professorjosedeassis" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/prof.joseassis/" target="_blank"><img src="img/instagram.png" alt="instagram"></a>
+                <a href="https://twitter.com/joseassis" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
+            </div>
+        </div>
+    </footer>
+    <a href="#inicio" id="topo"><img src="img/topo.png" alt="topo do site"></a>
+</body>
+
+</html>
